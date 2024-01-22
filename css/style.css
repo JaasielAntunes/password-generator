@@ -31,3 +31,36 @@ input:focus {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+
+.banner {
+  width: 50%;
+  background-image: url(../assets/password.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-content {
+  background-color: rgba(62, 42, 190, 0.7);
+  height: 100%;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content h1 {
+  font-size: 2.7rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.banner-content p {
+  margin-top: 12px;
+  display: flex;
+  color: greenyellow;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
