@@ -83,3 +83,17 @@ generatePasswordButton.addEventListener("click", () => {
     getSymbol
   );
 });
+
+copyPasswordButton.addEventListener("click", (e) => {
+  e.preventDefault();
+
+  const password = generatedPasswordElement.querySelector("h3").innerText;
+
+  navigator.clipboard.writeText(password).then(() => {
+    copyPasswordButton.innerText = "Copiada!";
+
+    setTimeout(() => {
+      copyPasswordButton.innerText = "Copiar";
+    }, 2000);
+  });
+});
