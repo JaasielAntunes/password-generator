@@ -191,3 +191,89 @@ input:focus {
 .copy-password:hover {
   color: #5d27f1;
 }
+
+@media only screen and (max-width: 720px) {
+  .center {
+    width: 380px;
+    height: auto;
+  }
+
+  .banner-content h1 {
+    font-size: 1.7rem;
+  }
+
+  .create-password h4 {
+    font-size: 1rem;
+  }
+
+  .generate-options {
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+
+  .generate-options p {
+    font-size: 12px;
+  }
+
+  .form-control label {
+    font-size: 12px;
+  }
+
+  .generate-options button {
+    font-size: 0.7rem;
+    padding: 0.5rem 0.5rem;
+  }
+
+  .generated-password {
+    width: 155px;
+  }
+
+  .generated-password p {
+    font-size: 0.8rem;
+  }
+
+  .create-password {
+    padding: 1rem;
+  }
+
+  .create-password h3 {
+    font-size: 1rem;
+  }
+
+  .copy-password {
+    font-size: 0.7rem;
+    padding: 0.5rem 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .center {
+    width: 700px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  html {
+    background: linear-gradient(0deg, #03ffb3b9 0%, #0097ff 100%);
+  }
+  
+  .center {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+  }
+}
